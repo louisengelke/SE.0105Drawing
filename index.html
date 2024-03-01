@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Starter Drawing App</title>
+    <!  java script processing library - this is in all p5 programs>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5.5.1/dist/iro.min.js">
+  </script>
+    <style>
+        .banner {
+            text-align: center;
+            font-weight: bold;
+            font-size: 60px;
+            color: #074F86;
+            background-color: #C1EDFF; /* Set background color to friends red */
+            height: 150px; /* Set height to 50 pixels */
+            line-height: 75px; /* Align text vertically center */
+            width: 450px
+        }
+      .footer {
+            background-color: #4787A6;
+      }
+    </style>
+    <! the following code sets up the display behavior style and assigns it >
+    <! the style label #controlsContainer>
+    <style>
+      #controlsContainer {
+        width: 450px; 
+        height: 150px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10px;
+      } 
+    </style>
+    <style>
+      #colorsContainer {
+        margin-top: -10px;
+        margin-bottom: 15px;
+      } 
+    </style>
+    <style>
+      #sizeContainer {
+        margin-top: 5px;
+        margin-bottom: -20px;
+      } 
+    </style>
+    <style>
+      #dropdownsContainer {
+        margin-bottom: 5px;
+      } 
+    </style>
+    <style>
+      #buttonsContainer {
+        margin-bottom: 15px;
+      } 
+    </style>
+    
+  </head>
+  <body>
+    <div class="banner" id="app-header">
+    </div>
+    <div id="canvasContainer" ></div>
+    <div class="footer" id="controlsContainer">
+      <div id="colorsContainer"></div>
+      <div id="buttonsContainer"></div>
+      <div id="dropdownsContainer"></div>
+      <div id="sizeContainer"></div>
+    </div>
+    <script src="25engelkeSE01.05.js"></script>
+  </body>
+</html>
