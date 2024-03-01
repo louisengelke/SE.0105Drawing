@@ -51,7 +51,7 @@ function setup() {
   let bannerDiv = select('#app-header');
   bannerDiv.html('Fifa World Cup<br><span style="font-size: 56px;">Nations and Icons</span>'); //this adds a subtext to my code so I can have two different parts of my titles 
 
-  let canvas = createCanvas(450, 500);
+  let canvas = createCanvas(windowWidth, windowHeight-200);
   let canvasContainer = select("#canvasContainer");
   canvas.parent("canvasContainer");
   
